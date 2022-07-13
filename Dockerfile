@@ -29,7 +29,6 @@ RUN \
     python3-pkg-resources \
     unrar && \
   echo "**** install calibre-web ****" && \
-  mkdir /app && \
   cd /app && \
   git clone "https://github.com/ruifung/calibre-web" && \
   cd /app/calibre-web && \
